@@ -1,0 +1,27 @@
+/* CSS DIRECTORY
+        1. =PRIMARY
+        3. =HEADER
+        4. =BODY
+        4. =FOOTER
+*/
+
+/* =================
+   PRIMARY SETTINGS
+==================== */
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.App {
+  background: #1a1a1a;
+  color: #eee;
+  font: 1em/1.5 'Roboto', sans-serif;
+  height: 100vh;
+  margin: 0;
+}
+
+.App h1 {
+  margin: 0;
+}
