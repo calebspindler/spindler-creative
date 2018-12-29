@@ -1,5 +1,15 @@
 /************ MEDIA QUERIES ************/
 
 /* =================
- MEDIA QUERY >425px
+ MEDIA QUERY >745px
 ==================== */
+
+@media screen and (min-width: 745px) {
+    .main-content {
+        width: 50%;
+        margin: auto;
+      }
+    #header {
+        flex-direction: row;
+    }
+  }

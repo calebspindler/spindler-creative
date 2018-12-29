@@ -4,8 +4,8 @@ import React from 'react';
 const NotFound = () => (
   <div className="main-content">
     <div id="contact">
-      <h2>Contact</h2>
-      <p>I'd love to hear from you! Shoot me an email by <a id="email" href="mailto:findingrubies@gmail.com">clicking here</a>!</p>
+      <h2>Page Not Found</h2>
+      <p>Sorry, but that page doesn't exist.</p>
     </div>
   </div>
 );

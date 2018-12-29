@@ -7,11 +7,11 @@ import {
 
 // Contact Component with a clickable email address.
 const Home = () => (
-  <div className="main-content">
+  <div className="main-content fadeIn">
     <div id="home">
       <CloudinaryContext cloudName="spindler-creative">
-        <Image publicId="logo.png" >
-          <Transformation height="800" crop="scale" />
+        <Image id="logo" publicId="logo.png" >
+          <Transformation height="450" crop="scale" />
         </Image>
       </CloudinaryContext>
     </div>

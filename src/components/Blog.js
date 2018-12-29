@@ -2,10 +2,10 @@ import React from 'react';
 
 // Contact Component with a clickable email address.
 const Blog = () => (
-  <div className="main-content">
+  <div className="main-content fadeIn">
     <div id="contact">
-      <h2>Contact</h2>
-      <p>I'd love to hear from you! Shoot me an email by <a id="email" href="mailto:findingrubies@gmail.com">clicking here</a>!</p>
+      <h2>Blog</h2>
+      <p>Coming soon...</p>
     </div>
   </div>
 );
