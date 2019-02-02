@@ -14,11 +14,11 @@
   box-sizing: border-box;
 }
 
-.App {
+body {
   background: #1a1a1a;
   color: #eee;
   font: 1em/1.5 'Roboto', sans-serif;
-  height: 100vh;
+  height: 100%;
   margin: 0;
 }
 
@@ -27,7 +27,7 @@
 }
 
 .main-content {
-  width: 95%;
+  width: 100%;
   margin: auto;
 }
 

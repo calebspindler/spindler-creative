@@ -4,7 +4,6 @@ import React from 'react';
 const Blog = () => (
   <div className="main-content fadeIn">
     <div id="contact">
-      <h2>Blog</h2>
       <p>Coming soon...</p>
     </div>
   </div>

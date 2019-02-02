@@ -13,6 +13,7 @@ import Work from './Work';
 import Blog from './Blog';
 import Contact from './Contact';
 import NotFound from './NotFound';
+import KhaDoPhoto from './projects/kha-do-photo';
 
 // React-router for a bookmarkable and shareable navigation
 const App = () => (
@@ -23,6 +24,7 @@ const App = () => (
         <Route exact path='/' component={Home} />
         <Route path='/about' component={About} />
         <Route path='/work' component={Work} />
+        <Route path='/kha-do-photo' component={KhaDoPhoto} />
         <Route path='/blog' component={Blog} />
         <Route path='/contact' component={Contact} />
         <Route component={NotFound} />
