@@ -9,10 +9,9 @@ import {
 const Home = () => (
   <div className="main-content fadeIn">
     <div id="home">
+      <div id="rectangle"></div>
       <CloudinaryContext cloudName="spindler-creative">
-        <Image id="logo" publicId="logo.png" >
-          <Transformation height="450" crop="scale" />
-        </Image>
+        <Image id="aboutImage" publicId="about-image.jpg" />
       </CloudinaryContext>
     </div>
   </div>

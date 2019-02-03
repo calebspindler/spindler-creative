@@ -10,7 +10,6 @@ import Header from './Header';
 import Home from './Home';
 import About from './About';
 import Work from './Work';
-import Blog from './Blog';
 import Contact from './Contact';
 import NotFound from './NotFound';
 import KhaDoPhoto from './projects/kha-do-photo';
@@ -25,7 +24,6 @@ const App = () => (
         <Route path='/about' component={About} />
         <Route path='/work' component={Work} />
         <Route path='/kha-do-photo' component={KhaDoPhoto} />
-        <Route path='/blog' component={Blog} />
         <Route path='/contact' component={Contact} />
         <Route component={NotFound} />
       </Switch>
