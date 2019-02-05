@@ -9,4 +9,16 @@
         width: 80%;
         margin: auto;
       }
+    #aboutImage {
+    width: 35rem;
+    transform: rotate(8.9deg);
+    }
+    
+    #rectangle {
+    position: absolute;
+    width: 35rem;
+    height: 13rem;  
+    background: #D96C06;
+    transform: rotate(3.36deg);
+    }
   }

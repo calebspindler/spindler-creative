@@ -89,25 +89,26 @@ body {
   width: 100%;
 }
 
-#branding {
+header {
+  display: flex;
   flex-direction: row;
+  justify-content: center;
   font-family: 'Oswald', sans-serif;
+  margin: 0 1rem;
+  padding-top: 2rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 1.3rem;
 }
 
 #brandName {
   margin-left: 1rem;
 }
 
-#header {
-  flex-direction: column;
-  justify-content: space-between;
-  margin: 0 1rem;
-  padding-top: 2rem;
-}
-
 a {
   text-decoration: none;
-  color: #eee;
+  color: #1C1C1A;
 }
 
 /* =================
@@ -117,6 +118,11 @@ a {
 #about {
   margin-top: 3rem;
 }
+
+#aboutImage {
+  width: 20rem;
+  transform: rotate(8.9deg);
+  }
  
 #rectangle {
   position: absolute;
@@ -133,12 +139,7 @@ a {
   line-height: normal;
   font-size: 1.3rem;
   color: #F5EFED;
-}
-
-/* about-image */
-#aboutImage {
-width: 20rem;
-transform: rotate(8.9deg);
+  margin-top: 1.5rem;
 }
 
 #mobileNav {
@@ -149,7 +150,7 @@ transform: rotate(8.9deg);
 }
 
 button {
-  width: 9rem;
+  width: 135px;
   height: 53px;
   background-color: #BDBF09;
 }
