@@ -16,7 +16,7 @@
 
 body {
   background: #2292A4;
-  color: #eee;
+  color: #1C1C1A;
   font: 1em/1.5 'Roboto', sans-serif;
   height: 100%;
   margin: 0;
@@ -27,7 +27,7 @@ body {
 }
 
 .main-content {
-  width: 95%;
+  width: 90%;
   margin: auto;
 }
 
@@ -81,7 +81,8 @@ body {
 #home  {
   height: 90vh;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 #logo {
@@ -101,7 +102,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   margin: 0 1rem;
-  padding-top: 1rem;
+  padding-top: 2rem;
 }
 
 a {
@@ -113,12 +114,8 @@ a {
    BODY SETTINGS
 ==================== */
 
-.main-content p {
-  font-size: 1.5rem;
-}
-
-#home {
-  margin-top: 4rem;
+#about {
+  margin-top: 3rem;
 }
  
 #rectangle {
@@ -129,10 +126,32 @@ a {
   transform: rotate(3.36deg);
 }
 
+#aboutCopy {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  font-size: 1.3rem;
+  color: #F5EFED;
+}
+
 /* about-image */
 #aboutImage {
 width: 20rem;
 transform: rotate(8.9deg);
+}
+
+#mobileNav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem;
+}
+
+button {
+  width: 9rem;
+  height: 53px;
+  background-color: #BDBF09;
 }
 
 /* =================
