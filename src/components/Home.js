@@ -1,27 +1,34 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import {
   CloudinaryContext,
   Image,
   Transformation
 } from 'cloudinary-react';
 
+import Header from './Header';
+
 // Contact Component with a clickable email address.
 const Home = () => (
-  <div className="main-content fadeIn" id="home">
-    <div id="about">
-      <div id="rectangle"></div>
-      <CloudinaryContext cloudName="spindler-creative">
-        <Image id="aboutImage" publicId="about-image.jpg">
-          <Transformation width="800" crop="scale" />
-        </Image>
-      </CloudinaryContext>
-    </div>
-    <div id="aboutCopy">
-      <p>Hi, I'm Caleb Spindler! I am a web designer, developer, and content creator currently living in Louisville, KY.</p>
-      <p>When I’m not designing or developing websites, you’ll probably find me hanging with my fam, and we’ll likely be drinking coffee, hiking, or eating tacos.</p>
+  <div className="fadeIn" id="home">
+    <div id="background"></div>
+    <Header />
+    <div id="homeContent">
+      <div id="about">
+        <div id="rectangle"></div>
+        <CloudinaryContext cloudName="spindler-creative">
+          <Image id="aboutImage" publicId="about-image.jpg">
+            <Transformation width="800" crop="scale" />
+          </Image>
+        </CloudinaryContext>
+      </div>
+      <div id="aboutCopy">
+        <p>Hi, I'm Caleb Spindler! I am a web designer, developer, and content creator currently living in San Diego, California.</p>
+        <p>When I’m not designing or developing websites, you’ll probably find me hanging with my fam, and we’ll likely be drinking coffee, hiking, or eating tacos. Check out my portfolio, and hit me up if you'd like to work together!</p>
+      </div>
     </div>
     <div id="mobileNav">
-      <button>Recent Work</button>
+      <button><NavLink to="/work">Recent Work</NavLink></button>
       <button>Contact</button>
     </div>
   </div>
