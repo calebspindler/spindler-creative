@@ -11,10 +11,10 @@ import Header from './Header';
 // Contact Component with a clickable email address.
 const Home = () => (
   <div className="fadeIn" id="home">
-    <div id="background"></div>
+    <div id="homeBackground"></div>
     <Header />
     <div id="homeContent">
-      <div id="about">
+      <div id="about" class="swing">
         <div id="rectangle"></div>
         <CloudinaryContext cloudName="spindler-creative">
           <Image id="aboutImage" publicId="about-image.jpg">
@@ -29,7 +29,7 @@ const Home = () => (
     </div>
     <div id="mobileNav">
       <button><NavLink to="/work">Recent Work</NavLink></button>
-      <button>Contact</button>
+      <button id="homeContactBtn"><NavLink to="/contact">Contact</NavLink></button>
     </div>
   </div>
 );

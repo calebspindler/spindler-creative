@@ -80,15 +80,46 @@ body {
   align-items: center;
   width: 90%;
   margin: auto;
+  min-height: calc(100vh - 230px);
 }
 
-#background {
+#homeBackground {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   background: #2292A4;
+  z-index: -1;
+}
+
+#workBackground {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #BDBF09;
+  z-index: -1;
+}
+
+#khaBackground {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #BDBF09;
+  z-index: -1;
+}
+
+#contactBackground {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #D96C06;
   z-index: -1;
 }
 
@@ -134,7 +165,7 @@ a {
 #rectangle {
   position: absolute;
   width: 17rem;
-  height: 11.3rem;  
+  height: 11.3rem;
   background: #D96C06;
   transform: rotate(3.36deg);
 }
@@ -154,11 +185,11 @@ a {
   margin: auto;
   display: flex;
   justify-content: space-between;
-  padding-bottom: 2rem;
 }
 
 #mobileNav button {
   border: none;
+  margin-bottom: 2rem;
 }
 
 button {
@@ -167,7 +198,19 @@ button {
   background-color: #BDBF09;
 }
 
+/**********Projects**********/
+/* #kha-do-project-images {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+}
+
+#kha-do-project-images img {
+  padding: 1rem;
+  width: 100%;
+  height:100%;
+} */
+
 /* =================
    FOOTER SETTINGS
 ==================== */
-
