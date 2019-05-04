@@ -15,6 +15,9 @@
   #brandName {
     font-size: 3rem;
   }
+  #mobileNav {
+    width: 80%;
+  }
 }
 
 @media screen and (min-width: 415px) {
@@ -31,6 +34,9 @@
 }
 
 @media screen and (min-width: 745px) {
+  body {
+    background-color: #fff;
+  }
   #about {
     margin-top: 1rem;
   }  
@@ -85,6 +91,16 @@
     background: #2292A4;
     z-index: -1;
   }
+  #mobileNav {
+    width: 90%;
+  }
+  #mobileNav li {
+    margin-bottom: 3rem;
+  }
+  #mobileNav .button {
+    font-size: 1.8rem;
+    width: 13rem;
+  } 
   #homeContactBtn {
     position: absolute;
     top: 3.4rem;

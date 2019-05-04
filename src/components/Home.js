@@ -27,10 +27,10 @@ const Home = () => (
         <p>When I’m not designing or developing websites, you’ll probably find me hanging with my fam, and we’ll likely be drinking coffee, hiking, or eating tacos. Check out my portfolio, and hit me up if you'd like to work together!</p>
       </div>
     </div>
-    <div id="mobileNav">
-      <button><NavLink to="/work">Recent Work</NavLink></button>
-      <button id="homeContactBtn"><NavLink to="/contact">Contact</NavLink></button>
-    </div>
+    <nav id="mobileNav">
+      <li type="button"><NavLink to="/work" class="button">Recent Work</NavLink></li>
+      <li type="button" id="homeContactBtn"><NavLink to="/contact" class="button">Contact</NavLink></li>
+    </nav>
   </div>
 );
 

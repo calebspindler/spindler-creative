@@ -19,6 +19,7 @@ body {
   font: 1em/1.5 'Roboto', sans-serif;
   height: 100%;
   margin: 0;
+  background-color: #2292A4;
 }
 
 .container {
@@ -80,7 +81,7 @@ body {
   align-items: center;
   width: 90%;
   margin: auto;
-  min-height: calc(100vh - 230px);
+  min-height: calc(100vh - 245px);
 }
 
 #homeBackground {
@@ -185,17 +186,26 @@ a {
   margin: auto;
   display: flex;
   justify-content: space-between;
+  padding: 0px;
 }
 
-#mobileNav button {
-  border: none;
-  margin-bottom: 2rem;
-}
-
-button {
-  width: 135px;
-  height: 53px;
+#mobileNav .button {
   background-color: #BDBF09;
+  border: none;
+  padding-top: 1rem;;
+  padding-bottom: 1rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  width: 9rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+#mobileNav li {
+  list-style-type: none;
+  margin-bottom: 2rem;
 }
 
 /**********Projects**********/
