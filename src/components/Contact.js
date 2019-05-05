@@ -26,7 +26,7 @@ const Contact = () => (
         </p>
       </form>
     </div>
-    <div id="contactButton" type="button"><NavLink to="/" class="button">Back</NavLink></div>
+    <div id="backButton" type="button"><NavLink to="/">Back</NavLink></div>
   </div>
 );
 

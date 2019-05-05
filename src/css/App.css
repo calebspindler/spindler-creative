@@ -227,7 +227,8 @@ header {
   flex-direction: column;
 }
 
-#contact {
+#contact,
+#recentWork {
   width: 90%;
   margin: auto;
 }
@@ -237,19 +238,20 @@ header {
   margin: auto;
 }
 
-#contact h1 {
+#contact h1,
+#recentWork h1 {
   font-size: 4rem;
   text-align: center;
   margin-top: 2rem;
   font-family: 'Oswald', sans-serif;
 }
 
-#contactButton {
+#backButton {
   width: 100%;
   text-align: right;
 }
 
-#contactButton {
+#backButton {
   font-size: 2rem;
   font-weight: bold;
 }
@@ -275,4 +277,9 @@ header {
 
 #contactForm textarea {
   height: 150px;
+}
+
+#contactForm input,
+#contactForm textarea {
+  border: none;
 }

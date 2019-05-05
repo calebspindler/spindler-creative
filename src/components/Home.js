@@ -18,7 +18,7 @@ const Home = () => (
         <div id="rectangle"></div>
         <CloudinaryContext cloudName="spindler-creative">
           <Image id="aboutImage" publicId="about-image.jpg">
-            <Transformation width="800" crop="scale" />
+            <Transformation width="1200" crop="scale" />
           </Image>
         </CloudinaryContext>
       </div>
