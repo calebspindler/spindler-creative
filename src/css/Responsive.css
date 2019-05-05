@@ -19,7 +19,7 @@
     width: 80%;
   }
   #contact h1,
-  #recentWork h1 {
+  #workCopy h1 {
     font-size: 4.5rem;
   }
 }
@@ -118,12 +118,13 @@
     100% { transform: rotate(-3deg); }
   }
   #contact h1,
-  #recentWork h1 {
+  #workCopy h1 {
     font-size: 6rem;
     margin-top: 0px;
   }
   #contactCopy p,
-  #contactForm label {
+  #contactForm label,
+  #workCopy p {
     font-size: 1.3rem;
   }
   #backButton {

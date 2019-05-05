@@ -228,7 +228,7 @@ header {
 }
 
 #contact,
-#recentWork {
+#work {
   width: 90%;
   margin: auto;
 }
@@ -239,7 +239,7 @@ header {
 }
 
 #contact h1,
-#recentWork h1 {
+#workCopy h1 {
   font-size: 4rem;
   text-align: center;
   margin-top: 2rem;
@@ -282,4 +282,9 @@ header {
 #contactForm input,
 #contactForm textarea {
   border: none;
+}
+
+.workImage {
+  width: 50%;
+  padding: 1rem;
 }
