@@ -15,7 +15,7 @@
   #brandName {
     font-size: 3rem;
   }
-  #mobileNav {
+  #mainNav {
     width: 80%;
   }
 }
@@ -58,7 +58,7 @@
     width: 35rem;
     transform: rotate(8.9deg);
   }
-  button:hover {
+  .button:hover {
     animation: shake 0.6s;
     animation-iteration-count: infinite;
   }
@@ -91,13 +91,13 @@
     background: #2292A4;
     z-index: -1;
   }
-  #mobileNav {
+  #mainNav {
     width: 90%;
   }
-  #mobileNav li {
+  #mainNav li {
     margin-bottom: 3rem;
   }
-  #mobileNav .button {
+  #mainNav .button {
     font-size: 1.8rem;
     width: 13rem;
   } 
@@ -112,5 +112,9 @@
   @keyframes swing {
     0% { transform: rotate(3deg); }
     100% { transform: rotate(-3deg); }
+  }
+  #contactCopy p,
+  #contactForm label {
+    font-size: 1.3rem;
   }
 }

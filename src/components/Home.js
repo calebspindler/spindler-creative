@@ -14,7 +14,7 @@ const Home = () => (
     <div id="homeBackground"></div>
     <Header />
     <div id="homeContent">
-      <div id="about" class="swing">
+      <div id="about" className="swing">
         <div id="rectangle"></div>
         <CloudinaryContext cloudName="spindler-creative">
           <Image id="aboutImage" publicId="about-image.jpg">
@@ -27,9 +27,9 @@ const Home = () => (
         <p>When I’m not designing or developing websites, you’ll probably find me hanging with my fam, and we’ll likely be drinking coffee, hiking, or eating tacos. Check out my portfolio, and hit me up if you'd like to work together!</p>
       </div>
     </div>
-    <nav id="mobileNav">
-      <li type="button"><NavLink to="/work" class="button">Recent Work</NavLink></li>
-      <li type="button" id="homeContactBtn"><NavLink to="/contact" class="button">Contact</NavLink></li>
+    <nav id="mainNav">
+      <li type="button"><NavLink to="/work" className="button">Recent Work</NavLink></li>
+      <li type="button" id="homeContactBtn"><NavLink to="/contact" className="button">Contact</NavLink></li>
     </nav>
   </div>
 );

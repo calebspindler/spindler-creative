@@ -1,8 +1,9 @@
 /* CSS DIRECTORY
         1. =PRIMARY
-        3. =HEADER
-        4. =BODY
-        4. =FOOTER
+        3. =HOME
+        4. =RECCENT WORK
+        4. =CONTACT
+        5. =PROJECTS
 */
 
 /* =================
@@ -14,9 +15,15 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+  color: #1C1C1A;
+}
+
 body {
   color: #1C1C1A;
   font: 1em/1.5 'Roboto', sans-serif;
+  font-weight: 600;
   height: 100%;
   margin: 0;
   background-color: #2292A4;
@@ -65,16 +72,7 @@ body {
   }
 }
 
-
-
-/* =================
-   HEADER SETTINGS
-==================== */
-
-.App h1 {
-  margin: 0;
-}
-
+/* Page Backgrounds */
 #homeContent  {
   display: flex;
   flex-direction: column;
@@ -124,6 +122,14 @@ body {
   z-index: -1;
 }
 
+/* =================
+   HOME SETTINGS
+==================== */
+
+.App h1 {
+  margin: 0;
+}
+
 #logo {
   width: 100%;
 }
@@ -140,15 +146,6 @@ header {
   line-height: normal;
   font-size: 1.3rem;
 }
-
-a {
-  text-decoration: none;
-  color: #1C1C1A;
-}
-
-/* =================
-   BODY SETTINGS
-==================== */
 
 #about {
   margin-top: 3rem;
@@ -181,7 +178,11 @@ a {
   margin-top: 1.5rem;
 }
 
-#mobileNav {
+/* =================
+   NAVIGATION
+==================== */
+
+#mainNav {
   width: 90%;
   margin: auto;
   display: flex;
@@ -189,7 +190,7 @@ a {
   padding: 0px;
 }
 
-#mobileNav .button {
+#mainNav .button {
   background-color: #BDBF09;
   border: none;
   padding-top: 1rem;;
@@ -203,24 +204,75 @@ a {
   font-size: 1.2rem;
 }
 
-#mobileNav li {
+#mainNav li {
   list-style-type: none;
   margin-bottom: 2rem;
 }
 
-/**********Projects**********/
-/* #kha-do-project-images {
-  display: flex;
-  flex-flow: wrap;
-  justify-content: space-between;
-}
+/* =================
+   RECENT WORK
+==================== */
 
-#kha-do-project-images img {
-  padding: 1rem;
-  width: 100%;
-  height:100%;
-} */
+
 
 /* =================
-   FOOTER SETTINGS
+   CONTACT
 ==================== */
+#contact .main-content {
+  min-height: calc(100vh - 120px);
+}
+
+#contactForm label {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact {
+  width: 90%;
+  margin: auto;
+}
+
+#contactForm {
+  max-width: 500px;
+  margin: auto;
+}
+
+#contact h1 {
+  font-size: 4rem;
+  text-align: center;
+  margin-top: 2rem;
+  font-family: 'Oswald', sans-serif;
+}
+
+#contactButton {
+  width: 100%;
+  text-align: right;
+}
+
+#contactButton {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#contactForm p:last-of-type {
+  width: 100%;
+  text-align: center;
+}
+
+#contactSend {
+  background-color: #2292A4;
+  border: none;
+  padding-top: 1rem;;
+  padding-bottom: 1rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  width: 9rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+#contactForm textarea {
+  height: 150px;
+}
