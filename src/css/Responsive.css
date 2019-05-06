@@ -4,6 +4,13 @@
  MEDIA QUERY >745px
 ==================== */
 
+@media screen and (max-width: 330px) {
+  #mainNav .button {
+    width: 8rem;
+  }
+}
+
+
 @media screen and (min-width: 360px) {
   #aboutImage {
     width: 19rem;
@@ -37,7 +44,30 @@
   }
 }
 
-@media screen and (min-width: 745px) {
+@media screen and (min-width: 560px) {
+  #brandName {
+    font-size: 5rem;
+  }
+  #aboutImage {
+    width: 24rem;
+  }
+  #rectangle {
+    width: 24.1rem;
+    height: 16rem;
+  }
+}
+
+@media screen and (min-width: 560px) {
+  #aboutImage {
+    width: 26rem;
+  }
+  #rectangle {
+    width: 26.2rem;
+    height: 17.3rem;
+  }
+}
+
+@media screen and (min-width: 1000px) {
   body {
     background-color: #fff;
   }
@@ -53,6 +83,7 @@
     flex-direction: row-reverse;
     justify-content: space-between;
     padding: 0 2rem;
+    max-width: 2000px;
   }
   .main-content {
     width: 80%;

@@ -80,6 +80,7 @@ body {
   width: 90%;
   margin: auto;
   min-height: calc(100vh - 245px);
+  max-width: 750px;
 }
 
 #homeBackground {
@@ -284,7 +285,15 @@ header {
   border: none;
 }
 
-.workImage {
+#projectOne,
+#projectTwo {
   width: 50%;
-  padding: 1rem;
+}
+
+#projectOne {
+  padding-right: 1rem;
+}
+
+#projectTwo {
+  padding-left: 1rem;
 }
