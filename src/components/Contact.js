@@ -9,7 +9,6 @@ const Contact = () => (
     <div className="main-content">
       <div id="contactCopy">
         <h1>Contact</h1>
-        <p>If you are interested in working with me, or have any questions, leave me a message, and I'll get back to you as soon as possible.</p>
       </div>
       <form name="contact" method="POST" data-netlify="true" id="contactForm">
         <p>

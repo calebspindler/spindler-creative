@@ -72,17 +72,30 @@ body {
   }
 }
 
-/* Page Backgrounds */
 #homeContent  {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 90%;
   margin: auto;
-  min-height: calc(100vh - 245px);
-  max-width: 750px;
+  min-height: calc(100vh - 270px);
+  max-width: 500px;
 }
 
+#mainNav,
+#work,
+#kha-do-project,
+#trc-project {
+  max-width: 500px;
+}
+
+#kha-do-project,
+#trc-project {
+  width: 90%;
+  margin: auto;
+}
+
+/* Page Backgrounds */
 #homeBackground {
   position: fixed;
   top: 0;
@@ -93,7 +106,7 @@ body {
   z-index: -1;
 }
 
-#workBackground {
+.workBackground {
   position: fixed;
   top: 0;
   left: 0;
@@ -214,7 +227,18 @@ header {
    RECENT WORK
 ==================== */
 
+.projectCopy h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 2rem;
+  font-family: 'Oswald', sans-serif;
+}
 
+#workGallery img,
+#kha-do-project-images img,
+#trc-project-images img {
+  width: 100%;
+}
 
 /* =================
    CONTACT
@@ -280,20 +304,16 @@ header {
   height: 150px;
 }
 
-#contactForm input,
-#contactForm textarea {
+input,
+textarea {
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
   border: none;
+  outline: none;
 }
 
-#projectOne,
-#projectTwo {
-  width: 50%;
-}
-
-#projectOne {
-  padding-right: 1rem;
-}
-
-#projectTwo {
-  padding-left: 1rem;
+input:focus,
+textarea:focus {
+  border: 4px solid #BDBF09;
 }

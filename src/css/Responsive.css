@@ -55,6 +55,9 @@
     width: 24.1rem;
     height: 16rem;
   }
+  .projectCopy h1 {
+    font-size: 2.3rem;
+  }
 }
 
 @media screen and (min-width: 560px) {
@@ -67,9 +70,17 @@
   }
 }
 
+@media screen and (min-width: 710px) {
+  #backButton {
+    position: fixed;
+    bottom: 1rem;
+    right: 2rem;
+  }
+}
+
 @media screen and (min-width: 1000px) {
-  body {
-    background-color: #fff;
+  #brandName {
+    font-size: 4rem;
   }
   #about {
     margin-top: 1rem;
@@ -83,14 +94,46 @@
     flex-direction: row-reverse;
     justify-content: space-between;
     padding: 0 2rem;
-    max-width: 2000px;
+    max-width: none;
+  }
+  .main-content {
+    max-width: 1200px;
+  }
+  #mainNav,
+  #work,
+  #kha-do-project,
+  #trc-project {
+    max-width: none;
+  }
+  #workGallery,
+  #kha-do-project-images,
+  #trc-project-images {
+    margin-bottom: 3rem;
+  }
+  #workGallery img,
+  #kha-do-project-images img,
+  #trc-project-images img {
+    width: 50%;
+  }
+  #kha-do-project-images img:nth-child(odd),
+  #trc-project-images img:nth-child(odd) {
+    padding-right: 0.5rem;
+    padding-top: 0.5rem;
+  }
+  #kha-do-project-images img:nth-child(even),
+  #trc-project-images img:nth-child(even) {
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+  }
+  #workGallery img:first-of-type {
+    padding-right: 1rem;
   }
   .main-content {
     width: 80%;
     margin: auto;
   }
   #aboutImage {
-    width: 35rem;
+    width: 24rem;
     transform: rotate(8.9deg);
   }
   .button:hover {
@@ -106,24 +149,24 @@
     100% { transform: translate(1px, -2px) rotate(-1deg); }
   }
   #aboutCopy {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     width: 40%;
     margin-top: 0px;
   }
   #rectangle {
     position: absolute;
-    width: 35rem;
-    height: 23.1rem;  
+    width: 24rem;
+    height: 16rem;  
     background: #D96C06;
     transform: rotate(3.36deg);
   }
   #homeBackground {
     position: fixed;
     top: 0;
-    left: 0;
+    left: 50%;
     width: 50%;
     height: 100%;
-    background: #2292A4;
+    background: #fff;
     z-index: -1;
   }
   #mainNav {
@@ -133,8 +176,8 @@
     margin-bottom: 3rem;
   }
   #mainNav .button {
-    font-size: 1.8rem;
-    width: 13rem;
+    font-size: 1.7rem;
+    width: 12rem;
   } 
   #homeContactBtn {
     position: absolute;
@@ -153,20 +196,220 @@
     font-size: 6rem;
     margin-top: 0px;
   }
+  .projectCopy h1 {
+    font-size: 3rem;
+  }
   #contactCopy p,
   #contactForm label,
-  #workCopy p {
+  #workCopy p,
+  .projectCopy p {
     font-size: 1.3rem;
   }
-  #backButton {
-    position: absolute;
-    bottom: 1rem;
-    right: 2rem;
+}
+
+@media screen and (min-width: 1100px) {
+  #aboutImage {
+    width: 26rem;
+  }
+  #rectangle {
+    width: 26.2rem;
+    height: 17.3rem;
+  }
+  .projectCopy h1 {
+    font-size: 4rem;
   }
 }
 
 @media screen and (min-width: 1200px) {
+  #brandName {
+    font-size: 5rem;
+  }
   #backButton {
     font-size: 2.5rem;
+  }
+  #aboutImage {
+    width: 29rem;
+  }
+  #rectangle {
+    width: 29rem;
+    height: 19.2rem;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  #aboutCopy {
+    font-size: 1.8rem;
+  }
+  #aboutImage {
+    width: 35rem;
+  }
+  #rectangle {
+    width: 35rem;
+    height: 23.1rem;
+  }
+  #mainNav .button {
+    font-size: 1.8rem;
+    width: 13rem;
+  } 
+}
+
+@media screen and (min-width: 1500px) {
+  #aboutCopy {
+    font-size: 2.2rem;
+  }
+  #mainNav .button {
+    font-size: 2rem;
+    width: 15rem;
+  } 
+  #homeContent {
+    min-height: calc(100vh - 280px);
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  #aboutCopy {
+    font-size: 2.5rem;
+  }
+  #aboutImage {
+    width: 37rem;
+  }
+  #rectangle {
+    width: 37rem;
+    height: 24.5rem;
+  }
+  #mainNav .button {
+    font-size: 2.2rem;
+    width: 17rem;
+  } 
+  #homeContent {
+    min-height: calc(100vh - 285px);
+  }
+}
+
+@media screen and (min-width: 1700px) {
+  #aboutCopy {
+    font-size: 2.7rem;
+  }
+  #aboutImage {
+    width: 39rem;
+  }
+  #rectangle {
+    width: 39rem;
+    height: 25.8rem;
+  }
+  #mainNav .button {
+    font-size: 2.4rem;
+    width: 19rem;
+  } 
+  #homeContent {
+    min-height: calc(100vh - 290px);
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  #aboutCopy {
+    font-size: 2.9rem;
+  }
+  #aboutImage {
+    width: 41rem;
+  }
+  #rectangle {
+    width: 41rem;
+    height: 27.1rem;
+  }
+  #mainNav .button {
+    font-size: 2.6rem;
+    width: 21rem;
+  } 
+  #homeContent {
+    min-height: calc(100vh - 295px);
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  #aboutCopy {
+    font-size: 3rem;
+  }
+  #aboutImage {
+    width: 43rem;
+  }
+  #rectangle {
+    width: 43rem;
+    height: 28.6rem;
+  }
+  #mainNav .button {
+    font-size: 2.7rem;
+    width: 23rem;
+  }
+  #brandName {
+    font-size: 6rem;
+  } 
+  #homeContent {
+    min-height: calc(100vh - 330px);
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  #aboutCopy {
+    font-size: 3.2rem;
+  }
+  #aboutImage {
+    width: 46rem;
+  }
+  #rectangle {
+    width: 46rem;
+    height: 30.5rem;
+  }
+  #mainNav .button {
+    font-size: 2.9rem;
+    width: 25rem;
+  }
+  #brandName {
+    font-size: 6.3rem;
+  }
+  #homeContent {
+    min-height: calc(100vh - 340px);
+  }
+}
+
+@media screen and (min-width: 2300px) {
+  #aboutImage {
+    width: 49rem;
+  }
+  #rectangle {
+    width: 49rem;
+    height: 32.6rem;
+  }
+  #brandName {
+    font-size: 6.5rem;
+  } 
+}
+
+@media screen and (min-width: 2400px) {
+  #aboutImage {
+    width: 52rem;
+  }
+  #rectangle {
+    width: 52rem;
+    height: 34.6rem;
+  }
+  #brandName {
+    font-size: 6.7rem;
+  } 
+}
+
+@media screen and (min-width: 2500px) {
+  #aboutImage {
+    width: 56rem;
+  }
+  #rectangle {
+    width: 56rem;
+    height: 37.3rem;
+  }
+  #brandName {
+    font-size: 7rem;
+  } 
+  #homeContent {
+    min-height: calc(100vh - 350px);
   }
 }

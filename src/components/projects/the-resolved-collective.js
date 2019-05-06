@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import {
   CloudinaryContext,
   Image,
@@ -7,27 +8,41 @@ import {
 
 // Contact Component with a clickable email address.
 const TheResolvedCollective = () => (
-  <div className="fadeIn" id="kha-do-project">
-    <div id="khaBackground"></div>
+  <div className="fadeIn" id="trc-project">
+    <div className="workBackground"></div>
     <div className="main-content">
-    <div id="">
-      <p>For this project, I designed and developed a responsive portfolio for Kha Do, a freelance photographer in Louisville, KY. Kha wanted a clean, modern, minimalist aesthetic that would not distract visitors from viewing some of his best work. For this project, I used HTML, CSS, and JavaScript to create a photo gallery with a popup modal and a contact form using Netlify's backend.</p>
-    </div>
-      <CloudinaryContext cloudName="spindler-creative" id="kha-do-project-images">
-          <Image publicId="kha-do-photo-homepage.png" >
-            <Transformation width="500" crop="scale" />
+      <div class="projectCopy">
+        <h1>Project: The Resolved Collective</h1>
+        <p>For this project, utlizing an Underscores starter theme, I designed and developed a responsive WordPress Theme uniquely for The Resolved Collective, a community of like-minded individuals who are focused on wellness through nutrition, exercise, and essential oils. I used HTML, CSS, PHP, and some popular WordPress plugins to create the following pages: home, about, join, events, blog, members-only, and contact.</p>
+      </div>
+      <CloudinaryContext cloudName="spindler-creative" id="trc-project-images">
+          <Image publicId="trc-home-main.jpg" >
+            <Transformation width="800" crop="scale" />
           </Image>
-          <Image publicId="kha-do-photo-modal.png" >
-            <Transformation width="500" crop="scale" />
+          <Image publicId="trc-home-about.jpg" >
+            <Transformation width="800" crop="scale" />
           </Image>
-          <Image publicId="kha-do-photo-about.png" >
-            <Transformation width="500" crop="scale" />
+          <Image publicId="trc-home-blogs.jpg" >
+            <Transformation width="800" crop="scale" />
           </Image>
-          <Image publicId="kha-do-photo-contact.png" >
-            <Transformation width="500" crop="scale" />
+          <Image publicId="trc-home-contact.jpg" >
+            <Transformation width="800" crop="scale" />
+          </Image>
+          <Image publicId="trc-about-1.jpg" >
+            <Transformation width="800" crop="scale" />
+          </Image>
+          <Image publicId="trc-join-option1.jpg" >
+            <Transformation width="800" crop="scale" />
+          </Image>
+          <Image publicId="trc-events-upcoming.jpg" >
+            <Transformation width="800" crop="scale" />
+          </Image>
+          <Image publicId="trc-members-unlocked.jpg" >
+            <Transformation width="800" crop="scale" />
           </Image>
       </CloudinaryContext>
     </div>
+    <div id="backButton" type="button"><NavLink to="/work">Back</NavLink></div>
   </div>
 );
 
