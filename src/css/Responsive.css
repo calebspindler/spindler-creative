@@ -211,6 +211,10 @@
   .projectCopy p {
     font-size: 1.3rem;
   }
+  #work .main-content,
+  #contact .main-content {
+    margin-top: 3%;
+  }
 }
 
 @media screen and (min-width: 1100px) {
