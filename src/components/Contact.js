@@ -10,7 +10,7 @@ const Contact = () => (
       <div id="contactCopy">
         <h1>Contact</h1>
       </div>
-      <form name="contact" method="POST" data-netlify="true" id="contactForm">
+      <form name="contact" method="POST" id="contactForm" data-netlify="true">
         <p>
           <label>Name: <input type="text" name="name" /></label>   
         </p>
