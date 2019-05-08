@@ -19,12 +19,12 @@ const Work = () => (
       </div>
       <CloudinaryContext cloudName="spindler-creative" id="workGallery">
         <NavLink to="/kha-do-photo">
-          <Image publicId="kha-do-photo-homepage.jpg" >
+          <Image publicId="kha-do-photo-homepage.jpg" alt="Screenshot of Kha Do's photography portfolio website, showing the logo, menu, and gallery.">
             <Transformation width="800" crop="scale" />
           </Image>
         </NavLink>
         <NavLink to="/the-resolved-collective">
-          <Image publicId="trc-home-main.jpg" >
+          <Image publicId="trc-home-main.jpg" alt="Screenshot of The Resolved Collective home page, showing the menu, title, slogan, join link, and image slider.">
             <Transformation width="800" crop="scale" />
           </Image>
         </NavLink>

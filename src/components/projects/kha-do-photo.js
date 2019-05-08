@@ -16,16 +16,16 @@ const KhaDoPhoto = () => (
         <p>For this project, I designed and developed a responsive portfolio for Kha Do, a freelance photographer in Louisville, KY. Kha wanted a clean, modern, minimalist aesthetic that would not distract visitors from viewing some of his best work. I used HTML, CSS, and JavaScript to create a photo gallery with a popup modal and a contact form using Netlify's backend.</p>
       </div>
       <CloudinaryContext cloudName="spindler-creative" id="kha-do-project-images">
-          <Image publicId="kha-do-photo-homepage.png" >
+          <Image publicId="kha-do-photo-homepage.png" alt="Screenshot of Kha Do's photography portfolio website, showing the logo, menu, and gallery.">
             <Transformation width="800" crop="scale" />
           </Image>
-          <Image publicId="kha-do-photo-modal.png" >
+          <Image publicId="kha-do-photo-modal.png" alt="Screenshot of the image modal on Kha Do's photography portfolio website.">
             <Transformation width="800" crop="scale" />
           </Image>
-          <Image publicId="kha-do-photo-about.png" >
+          <Image publicId="kha-do-photo-about.png" alt="Screenshot of the about page on Kha Do's photography portfolio website.">
             <Transformation width="800" crop="scale" />
           </Image>
-          <Image publicId="kha-do-photo-contact.png" >
+          <Image publicId="kha-do-photo-contact.png" alt="Screenshot of the contact page on Kha Do's photography portfolio website.">
             <Transformation width="800" crop="scale" />
           </Image>
       </CloudinaryContext>
