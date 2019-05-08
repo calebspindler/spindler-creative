@@ -4,6 +4,7 @@ import {
   Route,
   Switch
 } from 'react-router-dom';
+import ScrollToTop from 'react-router-scroll-top';
 
 // App Components
 import Home from './Home';
@@ -17,6 +18,7 @@ import TheResolvedCollective from './projects/the-resolved-collective';
 const App = () => (
   <BrowserRouter>
     <div className='App'>
+    <ScrollToTop />
       <Switch>
         <Route exact path='/' component={Home} />
         <Route path='/work' component={Work} />
