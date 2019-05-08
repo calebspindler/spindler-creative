@@ -14,7 +14,7 @@ const Work = () => (
     <div className="main-content">
       <div id="workCopy">
         <h1>Recent Work</h1>
-        <p>When it comes to web design and development, my specialty is producing ReactJS web apps that are responsive, interactive, and aesthetically pleasing. I begin by designing projects in Figma, and then I develop them by taking a mobile-first approach, ensuring that they look great on all devices.</p>
+        <p>When it comes to web design and development, my specialty is producing website that are responsive, interactive, and aesthetically pleasing. I begin by designing projects in Figma, and then I develop them, using JavaScript (React) or WordPress, by taking a mobile-first approach, ensuring that they look great on all devices.</p>
         <p>My current focus is on crafting unique websites for personal portfolios and small businesses.</p>
       </div>
       <CloudinaryContext cloudName="spindler-creative" id="workGallery">
