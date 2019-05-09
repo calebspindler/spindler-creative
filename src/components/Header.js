@@ -14,7 +14,10 @@ const Header = props =>
           <Transformation height="50" crop="scale" />
         </Image>
       </CloudinaryContext> */}
-      <h1 id="brandName"><NavLink exact to="/">Spindler Creative</NavLink></h1>
+      <div id="siteBranding">
+      <h1 id="brandName"><NavLink exact to="/">Spindler</NavLink></h1>
+      <h2><NavLink exact to="/">Creative</NavLink></h2>
+      </div>
   </header>
 
   export default Header;
