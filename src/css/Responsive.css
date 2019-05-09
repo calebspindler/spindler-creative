@@ -79,11 +79,16 @@
 }
 
 @media screen and (min-width: 1000px) {
+  #siteBranding {
+    flex-direction: row;
+    align-items: baseline;
+  }
   #brandName {
     font-size: 6rem;
   }
   header h2 {
     margin-top: -1.8rem;
+    font-size: 3rem;
   }
   #about {
     margin-top: 1rem;

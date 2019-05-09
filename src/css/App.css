@@ -78,7 +78,7 @@ body {
   align-items: center;
   width: 90%;
   margin: auto;
-  min-height: calc(100vh - 290px);
+  min-height: calc(100vh - 270px);
   max-width: 500px;
 }
 
