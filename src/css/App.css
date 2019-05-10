@@ -78,7 +78,6 @@ body {
   align-items: center;
   width: 90%;
   margin: auto;
-  min-height: calc(100vh - 270px);
   max-width: 500px;
 }
 
@@ -232,7 +231,7 @@ header h2 {
 
 #mainNav li {
   list-style-type: none;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 }
 
 /* =================
@@ -255,7 +254,7 @@ header h2 {
    CONTACT
 ==================== */
 #contact .main-content {
-  min-height: calc(100vh - 120px);
+  min-height: calc(100vh - 250px);
 }
 
 #contactForm label {
@@ -285,11 +284,9 @@ header h2 {
 #backButton {
   width: 100%;
   text-align: right;
-}
-
-#backButton {
   font-size: 2rem;
   font-weight: bold;
+  padding-bottom: 4rem;
 }
 
 #contactForm p:last-of-type {

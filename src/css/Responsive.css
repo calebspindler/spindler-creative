@@ -64,17 +64,15 @@
   }
 }
 
-@media screen and (max-width: 710px) {
-  #backButton {
-    margin-bottom: 2rem;
-  }
-}
-
 @media screen and (min-width: 710px) {
+  #contact .main-content {
+    min-height: calc(100vh - 120px);
+  }
   #backButton {
     position: fixed;
     bottom: 1rem;
     right: 2rem;
+    padding-bottom: 0;
   }
 }
 
@@ -103,6 +101,7 @@
     justify-content: space-between;
     padding: 0 2rem;
     max-width: none;
+    min-height: calc(100vh - 270px);
   }
   .main-content {
     max-width: 1200px;
