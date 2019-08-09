@@ -117,11 +117,6 @@
   #trc-project-images {
     margin-bottom: 3rem;
   }
-  #workGallery img,
-  #kha-do-project-images img,
-  #trc-project-images img {
-    width: 50%;
-  }
   #kha-do-project-images img:nth-child(odd),
   #trc-project-images img:nth-child(odd) {
     padding-right: 0.5rem;
@@ -218,6 +213,9 @@
   #work .main-content,
   #contact .main-content {
     margin-top: 3%;
+  }
+  #workGallery {
+    flex-direction: row;
   }
 }
 
