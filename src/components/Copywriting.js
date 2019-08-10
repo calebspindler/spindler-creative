@@ -29,7 +29,7 @@ const Copywriting = () => (
         </a>
       </CloudinaryContext>
     </div>
-    <div id="backButton" type="button"><NavLink to="/">Back</NavLink></div>
+    <div id="backButton" type="button"><NavLink to="/work">Back</NavLink></div>
   </div>
 );
 

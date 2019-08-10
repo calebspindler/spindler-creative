@@ -165,19 +165,12 @@ header {
   font-size: 1.3rem;
 }
 
-header h2 {
-  margin-left: 0rem;
-  margin-right: 0rem;
-  margin-bottom: 0rem;
-  margin-top: -2.1rem;
-}
-
 #about {
   margin-top: 3rem;
 }
 
 #brandName {
-  font-size: 6rem;
+  font-size: 4rem;
 }
 
 #aboutImage {
@@ -260,6 +253,10 @@ header h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+#workGallery a:last-of-type {
+  margin-top: 1rem;
 }
 
 #workGallery h1 {

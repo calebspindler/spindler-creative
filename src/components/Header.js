@@ -15,8 +15,7 @@ const Header = props =>
         </Image>
       </CloudinaryContext> */}
       <div id="siteBranding">
-      <h1 id="brandName"><NavLink exact to="/">Spindler</NavLink></h1>
-      <h2><NavLink exact to="/">Creative</NavLink></h2>
+      <h1 id="brandName"><NavLink exact to="/">Caleb Spindler</NavLink></h1>
       </div>
   </header>
 
