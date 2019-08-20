@@ -42,7 +42,7 @@ const TheResolvedCollective = () => (
           </Image>
       </CloudinaryContext>
     </div>
-    <div id="backButton" type="button"><NavLink to="/work">Back</NavLink></div>
+    <div id="backButton" type="button"><NavLink to="/web-design">Back</NavLink></div>
   </div>
 );
 
