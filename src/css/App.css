@@ -339,3 +339,11 @@ input:focus,
 textarea:focus {
   border: 4px solid #BDBF09;
 }
+
+#contactEmail {
+  text-decoration: underline;
+}
+
+#contactEmail:hover {
+  color: #F5EFED;
+}
