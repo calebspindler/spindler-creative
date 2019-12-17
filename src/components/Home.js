@@ -23,8 +23,8 @@ const Home = () => (
         </CloudinaryContext>
       </div>
       <div id="aboutCopy">
-        <p>Hi, I'm Caleb! I am a copywriter and web designer currently living in San Diego, California.</p>
-        <p>When I’m not writing copy or designing websites, you’ll probably find me hanging with my fam, and we’ll likely be drinking coffee, hiking, or eating tacos. Check out my portfolio, and hit me up if you'd like to work together!</p>
+        <p>Hi, I'm Caleb! I am a front end web developer and content creator currently living in San Diego, California.</p>
+        <p>When I’m not designing or developing websites, you’ll probably find me hanging with my fam, and we’ll likely be drinking coffee, hiking, or eating tacos. Check out my portfolio, and hit me up if you'd like to work together!</p>
       </div>
     </div>
     <nav id="mainNav">
