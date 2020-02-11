@@ -101,3 +101,17 @@ body {
 #appTitle {
     font-size: 45px;
 }
+
+#tipBack {
+    text-align: right;
+    font-size: 2rem;
+    padding-bottom: 4rem;
+    text-decoration: none;
+    color: #1C1C1A;
+  }
+
+  #tipBackContainer {
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+  }
