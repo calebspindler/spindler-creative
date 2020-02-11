@@ -16,8 +16,8 @@ const Work = () => (
         <h1>Recent Work</h1>
       </div>
       <CloudinaryContext cloudName="spindler-creative" id="workGallery">
-        <NavLink to="/web-design">
-          <h1>Web Design</h1>
+        <NavLink to="/web-development">
+          <h1>Development</h1>
           <Image publicId="kha-do-photo-homepage.jpg" alt="Screenshot of Kha Do's photography portfolio website, showing the logo, menu, and gallery.">
             <Transformation width="800" crop="scale" />
           </Image>
@@ -25,6 +25,12 @@ const Work = () => (
         <NavLink to="/copywriting">
           <h1>Copywriting</h1>
           <Image publicId="prima-coffee-roasting-blog.jpg" alt="Screenshot of the Learning How to Roast on a Hottop blog at Prima Coffee.">
+            <Transformation width="800" crop="scale" />
+          </Image>
+        </NavLink>
+        <NavLink to="/other-projects">
+          <h1>Projects</h1>
+          <Image publicId="javascript-tip-split-calculator.jpg" alt="Screenshot of the Learning How to Roast on a Hottop blog at Prima Coffee.">
             <Transformation width="800" crop="scale" />
           </Image>
         </NavLink>

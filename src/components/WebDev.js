@@ -7,13 +7,13 @@ import {
 } from 'cloudinary-react';
 
 // Contact Component with a clickable email address.
-const WebDesign = () => (
+const WebDev = () => (
 
   <div className="fadeIn" id="work">
   <div className="workBackground"></div>
     <div className="main-content">
       <div id="workCopy">
-        <h1>Web Design</h1>
+        <h1>Web Development</h1>
         <p>When it comes to web design and development, my specialty is producing websites that are responsive, interactive, and aesthetically pleasing. I begin by designing projects in Figma, and then I develop them, using JavaScript (React) or WordPress, by taking a mobile-first approach, ensuring that they look great on all devices.</p>
         <p>My current focus is on crafting unique websites for personal portfolios and small businesses.</p>
       </div>
@@ -34,4 +34,4 @@ const WebDesign = () => (
   </div>
 );
 
-export default WebDesign;
+export default WebDev;

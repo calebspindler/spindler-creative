@@ -1,0 +1,56 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>JavaScript Fun</title>
+    <meta name="A place for practicing JavaScript." content="JavaScript Fun">
+    <meta name="Caleb Spindler" content="SitePoint">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/vanilla-js/css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="calculateBillApp">
+        <div id="calculateTip">
+            <h1><span id="appTitle">Tip & Split</span> Calculator</h1>
+            <form id="calculateTipForm">
+                <p>How much is your bill?</p>
+                <input type="text" id="beforeTax" placeholder="$0.00" />
+                <p>How good was the service?</p>
+                <select id="serviceQuality">
+                    <option disabled selected value="0">Choose an Option</option>
+                    <option value="0.3">30&#37; &#45; Holy forking shirtballs, yes!</option>
+                    <option value="0.2">20&#37; &#45; Great, felt taken care of.</option>
+                    <option value="0.15">15&#37; &#45; Pretty average service.</option>
+                    <option value="0.1">10&#37; &#45; Eh, I've had a lot better.</option>
+                    <option value="0.05">5&#37; &#45; Eeek! I feel bad leaving nothing.</option>
+                </select>
+            </form>
+            <button type="button" class="submitButtons" id="crunchBill">Crunch!</button>
+            <div id="totalWithTipContainer">
+                Total: <sup>$</sup><span id="totalWithTip">0.00</span>
+            </div>
+            <div id="calculateSplit">
+                <button type="button" class="submitButtons" id="splitBillBtn">Need to split?</button>
+                <div id="splitBillQuantity">
+                    <p>How many people?</p>
+                    <input type="text" id="splitQuantity" value="2" />
+                    <button type="button" class="submitButtons" id="splitBill">Split!</button>
+                    <div id="totalPerPersonContainer">
+                        <p>Total Per Person:</p>
+                        <sup>$</sup><span id="totalPerPerson">0.00</span>
+                    </div>
+                </div>
+            </div>
+            <div id="resetCalculateApp">
+                <button type="button" class="submitButtons" id="resetButton">Reset</button>
+            </div>
+        </div>
+    </div>
+    <script src="/vanilla-js/js/calculateTipSplit.js"></script>
+</body>
+
+</html>

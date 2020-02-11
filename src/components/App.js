@@ -9,8 +9,9 @@ import ScrollToTop from 'react-router-scroll-top';
 // App Components
 import Home from './Home';
 import Work from './Work';
-import WebDesign from './WebDesign';
+import WebDev from './WebDev';
 import Copywriting from './Copywriting';
+import OtherProjects from './OtherProjects';
 import Contact from './Contact';
 import NotFound from './NotFound';
 import KhaDoPhoto from './projects/kha-do-photo';
@@ -24,8 +25,9 @@ const App = () => (
       <Switch>
         <Route exact path='/' component={Home} />
         <Route path='/work' component={Work} />
-        <Route path='/web-design' component={WebDesign} />
+        <Route path='/web-development' component={WebDev} />
         <Route path='/copywriting' component={Copywriting} />
+        <Route path='/other-projects' component={OtherProjects} />
         <Route path='/kha-do-photo' component={KhaDoPhoto} />
         <Route path='/the-resolved-collective' component={TheResolvedCollective} />
         <Route path='/contact' component={Contact} />
