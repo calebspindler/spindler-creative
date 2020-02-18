@@ -18,10 +18,27 @@ document.querySelector("#splitQuantity").addEventListener('click', function() {
     document.querySelector("#splitQuantity").value = "";
 });
 
+// Error Modal - get modal and close button
+const errorModal = document.querySelector("#errorModal");
+
+
+// Close Error Modal
+document.querySelector(".closeModal").addEventListener('click', function() {
+    errorModal.style.display = "none";
+});
+
+// Close Error Modal when user clicks outside of modal.
+window.addEventListener('click', function(event) {
+    if (event.target === errorModal) {
+        errorModal.style.display = "none";
+    }
+});
+
 // Run calculateTip app when "Crunch!" button is clicked. Show an alert box if nothing or 0 is entered.
 document.querySelector("#crunchBill").addEventListener('click', function() {
-    if (document.getElementById('beforeTax').value === "" || document.getElementById('beforeTax').value === "0" ) {
-        alert("Please enter a valid number.");
+    const checkInput = document.querySelector("#beforeTax").value;
+    if (checkInput === "" || checkInput === "0" || isNaN(checkInput)) {
+        errorModal.style.display = "block";
     } else {
         calculateTip();
         document.getElementById("resetCalculateApp").style.display = "block";
