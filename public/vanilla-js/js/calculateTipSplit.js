@@ -50,17 +50,22 @@ document.querySelector('#splitBillBtn').addEventListener('click', function() {
     document.getElementById("splitBillQuantity").style.display = "flex";
 });
 
+// Run splitBill app when "Split!" button is clicked, as long as the number entered is 2 or more.
+document.querySelector("#splitBill").addEventListener('click', function() {
+    const checkSplitInput = document.querySelector("#splitQuantity").value;
+    if(checkSplitInput === "" || checkSplitInput < "2" || isNaN(checkSplitInput)) {
+        errorModal.style.display = "block";
+    } else {
+        splitBill();
+    }
+});
+
 // Input division for split payments on front end
 function splitBill(totalWithTip = parseFloat(document.getElementById("totalWithTip").innerHTML), people = parseInt(document.getElementById('splitQuantity').value)) {
     let totalPerPerson = totalWithTip / people;
     totalPerPerson = totalPerPerson.toFixed(2);
     document.getElementById("totalPerPerson").innerHTML = totalPerPerson;
 }
-
-// Run splitBill app when "Split!" button is clicked.
-document.querySelector("#splitBill").addEventListener('click', function() {
-    splitBill();
-});
 
 // Reset button for resetting entire app
 document.querySelector('#resetButton').addEventListener('click', function() {
