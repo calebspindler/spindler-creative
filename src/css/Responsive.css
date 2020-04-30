@@ -212,9 +212,14 @@
   }
   #workGallery {
     flex-direction: row;
+    flex-wrap: wrap;
   }
   #workGallery a:last-of-type {
     margin-top: 0rem;
+  }
+  #workGallery a {
+    width: 50%;
+    padding-bottom: 20px;
   }
 }
 
